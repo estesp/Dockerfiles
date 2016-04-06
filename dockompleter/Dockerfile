@@ -2,7 +2,7 @@
 # importantly save off the package .a files for use with 
 # nsf/gocode (https://github.com/nsf/gocode) autocomplete
 # plugin use in vim (or other editors)
-FROM golang:1.4.2
+FROM golang:1.5.3
 MAINTAINER estesp@gmail.com
 
 # Install docker daemon build dependencies
